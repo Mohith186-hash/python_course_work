@@ -2,7 +2,7 @@
 order_id=int(input("Enter a Order ID: "))
 customer_name=str(input("Enter customer name: "))
 customer_number=int(input("Enter mobile number: "))
-beverages_name=input("Enter bevarges name: ")
+beverages_name=input("Enter beverages name: ")
 add_ons =list(input("Enter Items Ordered with quantity (format - item:qty, separated by commas): ").split(","))
 price=int(input("Enter price: ₹"))
 discount_percentage = float(input("Enter Discount Percentage: "))
