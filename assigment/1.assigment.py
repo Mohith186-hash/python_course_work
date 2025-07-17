@@ -6,11 +6,11 @@ bevarges_name=input("Enter bevarges name: ")
 add_ons =list(input("Enter Items Ordered with quantity (format - item:qty, separated by commas): ").split(","))
 price=int(input("Enter price: ₹"))
 discount_percentage = float(input("Enter Discount Percentage: "))
-coupons=int(input("enter the number of coupons: ")
-avilable_discount=int(input("enter number of available discounts: "))
+coupons=int(input("Enter the number of coupons: "))
+avilable_discount=int(input("Enter number of available discounts: "))
 discount_details=(coupons,availabile_discounts)
 customer_location = input(" Enter deliver location: ")
-delivery_time = set(input("How much time you want delivery: "))
+delivery_time = set(input("How much time you want deliver: "))
 payment=input("Payment will be Online or cash: ")
 order_details={
     'Customer ordered' : bevarges_name,
@@ -32,9 +32,3 @@ print(f"Customer Name: {customer_name} \nCustomer nuber Contact No: {customer_nu
 
 #using.format()
 print("Order Details: Customer ordered - {}, Customer add-ons -{},bill payment".format(order_details["Customer ordered"],order_details["Customer add-ons"],order_details["Payment"]))
-
-
-
-
-
-
