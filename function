@@ -25,7 +25,7 @@ def history():
         print("No Transction")
 while True:
     print('''
-          1.Check BAlance
+          1.Check Balance
           2.Deposit
           3.withdraw
           4.History
